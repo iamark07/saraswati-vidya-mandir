@@ -1,0 +1,1178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .firsthead{
+    width: 100%;
+    height: 120px;
+    background-color:#002749;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    }
+    
+    .schoolphotoname{
+    display: flex;
+    align-items: center;
+    }
+    
+    .firsthead img{
+    width: 100px;
+    }
+    
+    .firsthead h1{
+    color: yellow;
+    margin-left: 15px;
+    font-family: 'Signika', sans-serif;
+    font-size: 28px;
+    }
+    
+    .timing{font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 13px;
+    border-left: 0.5px solid rgba(255, 255, 255, 0.219);
+    padding:5px 10px;
+    font-weight: bold;
+    }
+    
+    
+    
+    .timing section{
+        display: flex;
+    
+    }
+    
+    .timing section:nth-child(2){
+        margin-top: 10px;
+    }
+    
+    .timing section i{
+        width: 20px;
+        text-align: center;
+        display: block;
+        color: yellow;
+        font-size: 18px;
+        padding-top: 2px;
+    }
+    
+    .timing section p{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    }
+    
+    .sechead{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 60px;
+        width: 100%;
+        
+    }
+    
+    .sechead > a i{
+        display:none;
+    }
+    
+    .sechead ul{
+    display:flex;
+    }
+    
+    .sechead ul li{
+        list-style: none;
+        font-size: 16px;
+        z-index: 1;
+        position: relative;
+        transition: all .2s;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .sechead ul .thirdli{
+        background-color: #002749;
+    }
+    
+    .sechead ul .thirdli a{
+        color: white;
+    }
+    
+    .sechead ul li a{
+        height: 50px;
+        width: 100px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #002749;
+        
+    }
+    
+    .sechead ul li a i{
+        margin-left: 10px;
+    }
+    
+    .sechead ul ul{
+        display: none;
+    }
+    
+    .sechead ul ul li{
+        background-color: red;
+        transition: .2s;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .sechead ul ul li a{
+        color: white;
+    }
+    
+    .sechead ul li:first-child:hover{
+        background-color: yellow;
+    }
+    
+    .sechead ul > li:hover{
+        background-color: yellow;
+    }
+    
+    .sechead ul li:hover > a{
+        color: rgb(255, 0, 0);
+    }
+    
+    .sechead ul li:hover > ul{
+        display: block;
+        position: absolute;
+        top: 100%;
+    }
+    
+    .sechead ul ul{
+        display: none;
+    }
+    
+    main > input{
+        display: none;
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    .sechead label i{
+        display: none;
+    }
+
+
+    .bgimg{
+        background-image:linear-gradient(rgba(0, 39, 73, 0.950),rgba(0, 39, 73, 0.950)), url(../image/15.jpg);
+        background-size: 100% 100%;
+        height: 500px;
+        position: relative;
+    }
+    
+    
+    .bgimg h1{
+        color: white;
+        font-size: 70px;
+        position: absolute;
+        font-family: 'Poppins', sans-serif;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        font-size: 55px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainfacilities{
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .box input{
+        cursor: pointer;
+        width: 140px;
+        height: 50px;
+    }
+
+    .box .input1{
+        -webkit-appearance: none;
+        background-color: red;
+        display: grid;
+        place-items: center;
+        position: relative
+    }
+
+
+
+    .box .input1::after{
+        content: "Music";
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .box .input2{
+        -webkit-appearance: none;
+        background-color: rgb(17, 201, 0);
+        display: grid;
+        place-items: center;
+    }
+
+    .box .input2::after{
+        content: "Dance";
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .box .input3{
+        -webkit-appearance: none;
+        background-color: rgb(0, 119, 255);
+        display: grid;
+        place-items: center;
+    }
+
+    .box .input3::after{
+        content: "Painting";
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .box .input4{
+        -webkit-appearance: none;
+        background-color: rgb(255, 145, 0);
+        display: grid;
+        place-items: center;
+    }
+
+    .box .input4::after{
+        content: "Games";
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .box .input5{
+        -webkit-appearance: none;
+        background-color: rgb(0, 170, 119);
+        display: grid;
+        place-items: center;
+    }
+
+    .box .input5::after{
+        content: "Computer";
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+    .box label{
+        position: absolute;
+        top: 50px;
+        left: 0%;
+        border-left: 1px solid rgba(109, 109, 109, 0.534);
+        border-right: 1px solid rgba(109, 109, 109, 0.534);
+        border-bottom: 1px solid rgba(109, 109, 109, 0.534);
+    }
+    
+    .fac{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 0px 0px 0px;
+        overflow: hidden;
+    }
+
+    .fac span{
+        width: 100%;
+    }
+    
+        
+    .fac figure{width: 100%;
+        height: 350px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-self: flex-end;
+    }
+    
+    .fac figure img{
+        width: 100%;
+        height: 100%;
+        transition: all .5s;
+    }
+    
+    .fac figure figcaption{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        background-color: rgba(0,0,0,0.6);
+        opacity: 0;
+        transition: all .5s;
+    }
+    
+    .fac figure figcaption a{
+        text-decoration: none;
+    }
+    
+    .fac figcaption a p{
+        width: 100px;
+        font-size: 15px;
+        text-align: center;
+        padding: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid white;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .fac figure figcaption:hover{
+        opacity: 1;
+    }
+    
+    .fac figure:hover img{
+        transform: scale(1.2);
+    }
+    
+    
+    #fac1 span h2{
+        color: rgb(255, 0, 0);
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #fac2 span h2{
+        color: rgb(17, 201, 0);
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #fac3 span h2{
+        color: rgb(0, 119, 255);
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #fac4 span h2{
+        color: rgb(255, 145, 0);
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #fac5 span h2{
+        color: rgb(0, 170, 119);
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .fac >  span p{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    text-align: justify;
+    padding: 0px 15px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-family: 'Farsan', cursive;
+    }
+
+    
+
+    .label1{
+        opacity: 1;
+        transition: all .3s;
+    }
+
+    .label2{
+        opacity: 0;
+        visibility: hidden;
+        transition: all .3s;
+    }
+
+    .label3{
+        opacity: 0;
+        visibility: hidden;
+        transition: all .3s;
+    }
+
+    .label4{
+        opacity: 0;
+        visibility: hidden;
+        transition: all .3s;
+    }
+
+    .label5{
+        opacity: 0;
+        visibility: hidden;
+        transition: all .3s;
+    }
+
+    #check1:checked ~  .label1{
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+    #check2:checked ~  .label2{
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+    #check3:checked ~ .label3{
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+    #check4:checked ~ .label4{
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+    #check5:checked ~ .label5{
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+
+
+
+    footer{
+        width: 100%;
+        background-color: #002749;
+    
+        margin-top: 700px;
+        padding: 20px;
+    }
+    
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logoname{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .logoname img{
+        width: 120px;
+    }
+    
+    .logoname h1{
+        font-family: 'Signika', sans-serif;
+        margin-top: 15px;
+        color:  yellow;
+        font-size: 23px;
+        text-align: center;
+    }
+    
+    footer .box{width: 200px;
+        border-left: 2px solid rgba(119, 136, 153, 0.226);
+        padding-left: 20px;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    footer .box h2{
+        font-family: 'Poppins', sans-serif;
+        color: red;
+        font-size: 21px;
+    }
+    
+    
+    
+    footer .box ul{
+        margin-top: 20px;
+    }
+    
+    footer .box ul li{
+        cursor: pointer;
+        padding: 5px 10px;
+        font-size: 17px;
+        list-style: none;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    footer .box ul li a{
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: white;
+    }
+    
+    .subscribeemail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .subscribeemail .container{
+        display: flex;
+        margin-top: 30px;
+        
+    }
+    
+    .subscribeemail input{
+        height: 40px;
+        border: none;
+        font-size: 16px;
+        padding-left: 10px;
+        width: 230px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .subscribeemail input:focus{
+        outline: none;
+    }
+    
+    .subscribeemail button{
+        height: 40px;
+        width:80px;
+        border: none;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        background-color: red;
+        color: white;
+        font-family: 'Share', cursive;
+        font-size: 17px;
+        cursor: pointer;
+        transition: all .5s;
+    }
+    
+    .subscribeemail button:hover{
+        background-color: yellow;
+        color: red;
+    }
+    
+    .fourthcol{
+        margin-top: 30px;
+    }
+    
+    .linkhead3{font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+    padding: 8px 0px;
+    
+    text-align: center;
+    font-weight: bold;
+    }
+    
+    .fourthcollinks{
+        width: 130px;
+        margin-top: 10px;
+    }
+    
+    .fourthcollinks ul{display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    .fourthcollinks ul a{text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;   
+    }
+    
+    .fourthcollinks ul a li{list-style: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: rgba(105, 105, 105, 0.76);
+    transition: all 0.5s;
+    }
+    
+    .fourthcollinks ul a li:hover{background-color: rgb(255, 0, 0);
+    color: black;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    }
+    
+    .lastcontainer{
+        display: flex;
+        color: white;
+        margin-top: 30px;
+    }
+    
+    .findus{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .footerhelplineicon{
+        display: flex;
+        width:220px; 
+        
+    }
+        
+    .footerhelplineicon i{
+        font-size: 20px;
+        color: white;
+        width:40px;
+        text-align: center;
+    }
+        
+    .footerhelplineicon p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        margin-left: 10px;
+        display:flex;
+        align-items: center;
+    }
+    
+    .footermailicon{
+        display: flex;
+        width:220px;
+        margin-top: 15px;
+    }
+        
+    .footermailicon i{
+        font-size: 20px;
+        color: white;
+        width:40px;
+        text-align: center;
+    }
+    .footermailicon p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        margin-left: 10px;
+        display:flex;
+        align-items: center;  
+    }
+    
+    
+    
+    .lastcontainer span{
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+        justify-content: flex-end;
+        color: white; 
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+    /* -----tablet screen-----*/
+
+    @media screen and (min-width:655px) and (max-width:709px){
+        .timing{
+            padding: 3px;
+            font-size: 10px;
+        }
+    
+        .timing section i{
+            font-size: 16px;
+        }
+    
+        .lastcontainer span{
+            font-size: 12px;
+        }
+    
+    }
+    
+    @media screen and (max-width:730px){
+        .timing{
+            padding: 5px 7px;
+            font-size: 10px;
+        }
+    
+        .timing section i{
+            font-size: 18px;
+        }
+    
+    }
+    
+    
+    @media screen and (min-width:655px) and (max-width:965px){
+    
+        .firsthead{
+            height: 110px;
+            padding: 0px 10px;
+        }
+    
+        .firsthead img{
+            width: 85px;
+        }
+    
+        .firsthead h1{
+            font-size: 22px;
+        }
+    
+        .sechead{
+            height: 52px;
+        }
+    
+        .sechead ul li{
+            font-size: 14px;
+        }
+    
+        .sechead ul li a{
+            width: 90px;
+        }
+    
+        .bgimg{
+            height: 365px;
+        }
+
+
+    
+        footer{
+            margin-top: 700px;
+            padding: 20px 14px;
+        }
+    
+        .logoname img{
+            width: 115px;
+        }
+    
+        footer .box h2{
+            font-size: 20px;
+        }
+    
+        footer .box ul li{
+            font-size: 16px;
+        }
+    
+        .subscribeemail input{
+            width: 167px;
+            height: 35px;
+        }
+    
+        .subscribeemail button{
+            width: 70px;
+            font-size: 13px;
+            height: 35px;
+        }
+    
+        .footerhelplineicon i{
+            font-size: 18px;
+        }
+    
+        .footerhelplineicon p{
+            font-size: 15px;
+        }
+    
+        .footermailicon i{
+            font-size: 18px;
+        }
+    
+        .footermailicon p{
+            font-size: 15px;
+        }
+    
+        .lastcontainer span{
+            font-size: 15px;
+        }
+    
+    
+    }
+    
+    
+    @media screen and (min-width:655px) and (max-width:730px){
+    
+        .lastcontainer span{
+            font-size: 12px;
+        }
+    
+        .logoname h1{
+            font-size: 14px;
+        }
+
+        .box input{
+            width: 78px;
+            height: 45px;
+        }
+
+        .box .input1::after{
+            font-size: 13px;
+        }
+
+        .box .input2::after{
+            font-size: 13px;
+        }
+    
+
+        .box .input3::after{
+            font-size: 13px;
+        }
+    
+
+        .box .input4::after{
+            font-size: 13px;
+        }
+    
+
+        .box .input5::after{
+            font-size: 13px;
+        }
+    
+    
+        .mainfacilities{
+            width: 390px;
+        }
+        
+        .box label{
+            top: 45px;
+        }
+
+        footer{
+            margin-top: 780px;
+        }
+
+
+    }
+    
+    @media screen and (min-width:731px) and (max-width:965px){
+    
+        .logoname h1{
+            font-size: 22px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        /* -----Mobile screen-----*/
+    
+    
+    
+    @media screen and (max-width:654px){
+    
+        header{
+            height: 253px;
+        }
+    
+    
+        .firsthead{
+            height:200px;
+            display: block;
+            padding: 15px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+    
+        .firsthead img{
+            width: 90px;
+        }
+    
+        .firsthead h1{
+            font-size: 26px;
+        }
+    
+        .timing{
+            padding: 0px;
+            margin-top: 20px;
+            border: none;
+            font-size: 12px;
+        }
+    
+        .sechead{z-index:2;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 18px;
+            height: 53px; 
+        }
+    
+        .sechead > ul{
+            display: none;
+        }
+    
+        .sechead a{
+            text-decoration: none;
+        }
+    
+        .sechead a i{
+            font-size: 20px;
+            color: #002749;
+            display: block;
+        }
+    
+        .menu{
+            display: block;
+            background-color: rgba(0, 0, 0, 0.911);
+            width: 100%;
+            transition: all .5s;
+            height: 0px;  
+            visibility: hidden;    
+        }
+        
+        .menu ul{ 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0px;
+        }
+    
+        .menu ul ul{
+            display: none;
+        }
+        
+        .menu ul li{
+            list-style: none;
+            font-size: 16px;
+            transition: all .2s;
+            font-family: 'Poppins', sans-serif;
+        }
+    
+      
+        
+        .menu ul li a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            height: 50px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .menu ul li:hover{
+            background-color: yellow;
+        }
+    
+        .menu ul li a i{
+            margin-left: 10px;
+        }
+    
+        .menu ul li:hover > ul{
+            display: none;
+        }
+    
+        .menu ul ul{
+            display: none;
+        }
+    
+        .menu ul li:hover a{
+            color: rgb(255, 0, 0);
+        }
+        
+        .sechead label i{
+            cursor: pointer;
+            font-size: 20px;
+            display: block;
+            color: #002749;
+        }
+    
+    
+    
+        #slider:checked ~  .menu{
+            height: 370px;
+            visibility: visible;
+        }
+    
+        .bgimg{
+            height: 275px;
+        }
+    
+        .bgimg h1{
+            font-size: 38px;
+        }
+
+        .box input{
+            width: 60px;
+            height: 41px;
+        }
+
+        .box .input1::after{
+            font-size: 10px;
+        }
+
+        .box .input2::after{
+            font-size: 10px;
+        }
+    
+
+        .box .input3::after{
+            font-size: 10px;
+        }
+    
+
+        .box .input4::after{
+            font-size: 10px;
+        }
+    
+
+        .box .input5::after{
+            font-size: 10px;
+        }
+
+        .mainfacilities{
+            width: 300px;
+        }
+        
+        .box label{
+            top: 41px;
+        }
+
+        .fac figure{
+            height: 220px;
+        }
+
+
+
+
+        footer{
+            margin-top: 730px;
+            padding: 20px 10px;
+        }
+    
+        footer > .container{
+            flex-direction: column;
+        }
+    
+        footer .box{
+            border: none;
+            margin: 40px 0px 20px 0px;
+    
+        }
+    
+        .subscribeemail input{
+            width: 210px;
+        }
+    
+        .subscribeemail button{
+            font-size: 14px;
+        }
+    
+        .lastcontainer{
+            flex-direction: column;
+            margin-top: 50px;
+        }
+    
+        .footerhelplineicon i{
+            font-size: 19px;
+        }
+    
+        .footerhelplineicon p{
+            font-size: 15px;
+        }
+    
+        .footermailicon i{
+            font-size: 19px;
+        }
+    
+        .footermailicon p{
+            font-size: 15px;
+        }
+    
+        .lastcontainer span{
+            font-size: 13px;
+            flex-direction: column;
+            margin-top: 30px;
+            text-align: center;
+            align-items: center;
+        }
+    
+        .lastcontainer span h3{
+            margin-top: 8px;
+        }
+    
+    
+    
+    
+    
+    
+    }
+    
+    @media screen and (max-width:385px){
+    
+        .firsthead img{
+            width: 73px;
+        }
+    
+        .firsthead h1{
+            font-size: 21px;
+        }
+    
+        .timing{
+            padding: 0px;
+            margin-top: 20px;
+            border: none;
+            font-size: 11px;
+        }
+
+    }
+
+    @media screen and (max-width:340px){
+
+        .box input{
+            width: 50px;
+            height: 36px;
+        }
+
+        .box .input1::after{
+            font-size: 8px;
+        }
+
+        .box .input2::after{
+            font-size: 8px;
+        }
+    
+
+        .box .input3::after{
+            font-size: 8px;
+        }
+    
+
+        .box .input4::after{
+            font-size: 8px;
+        }
+    
+
+        .box .input5::after{
+            font-size: 8px;
+        }
+    
+        .mainfacilities{
+            width: 250px;
+        }
+
+        .fac figure{
+            height: 220px;
+        }
+
+        .box label{
+            top: 36px;
+        }
+
+        footer{
+            margin-top: 800px;
+        }
+    }

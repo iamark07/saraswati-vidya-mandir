@@ -1,0 +1,852 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .firsthead{
+    width: 100%;
+    height: 120px;
+    background-color:#002749;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    }
+    
+    .schoolphotoname{
+    display: flex;
+    align-items: center;
+    }
+    
+    .firsthead img{
+    width: 100px;
+    }
+    
+    .firsthead h1{
+    color: yellow;
+    margin-left: 15px;
+    font-family: 'Signika', sans-serif;
+    font-size: 28px;
+    }
+    
+    .timing{font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 13px;
+    border-left: 0.5px solid rgba(255, 255, 255, 0.219);
+    padding:5px 10px;
+    font-weight: bold;
+    }
+    
+    
+    
+    .timing section{
+        display: flex;
+    
+    }
+    
+    .timing section:nth-child(2){
+        margin-top: 10px;
+    }
+    
+    .timing section i{
+        width: 20px;
+        text-align: center;
+        display: block;
+        color: yellow;
+        font-size: 18px;
+        padding-top: 2px;
+    }
+    
+    .timing section p{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    }
+    
+    .sechead{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 60px;
+        width: 100%;
+        
+    }
+    
+    .sechead > a i{
+        display:none;
+    }
+    
+    .sechead ul{
+    display:flex;
+    }
+    
+    .sechead ul li{
+        list-style: none;
+        font-size: 16px;
+        z-index: 1;
+        position: relative;
+        transition: all .2s;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .sechead ul .fifthli{
+        background-color: #002749;
+    }
+    
+    .sechead ul .fifthli a{
+        color: white;
+    }
+    
+    .sechead ul li a{
+        height: 50px;
+        width: 100px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #002749;
+        
+    }
+    
+    .sechead ul li a i{
+        margin-left: 10px;
+    }
+    
+    .sechead ul ul{
+        display: none;
+    }
+    
+    .sechead ul ul li{
+        background-color: red;
+        transition: .2s;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .sechead ul ul li a{
+        color: white;
+    }
+    
+    .sechead ul li:first-child:hover{
+        background-color: yellow;
+    }
+    
+    .sechead ul > li:hover{
+        background-color: yellow;
+    }
+    
+    .sechead ul li:hover > a{
+        color: rgb(255, 0, 0);
+    }
+    
+    .sechead ul li:hover > ul{
+        display: block;
+        position: absolute;
+        top: 100%;
+    }
+    
+    .sechead ul ul{
+        display: none;
+    }
+    
+    main > input{
+        display: none;
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    .sechead label i{
+        display: none;
+    }
+
+
+    .bgimg{
+        background-image:linear-gradient(rgba(0, 39, 73, 0.950),rgba(0, 39, 73, 0.950)), url(../image/4.jpg);
+        background-size: 100% 100%;
+        height: 500px;
+        position: relative;
+    }
+    
+    
+    .bgimg h1{
+        color: white;
+        font-size: 70px;
+        position: absolute;
+        font-family: 'Poppins', sans-serif;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        font-size: 55px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .maincontact{
+        width: 100%;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contact{
+        display: flex;
+        align-items: center;
+        margin:40px 20px;
+    }
+
+    .contact i{
+        display: grid;
+        place-items: center;
+        font-size: 20px;
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        margin-right: 20px;
+    }
+
+    .contact span h2{
+        font-size: 22px;
+        font-family:  'Poppins', sans-serif;
+    }
+
+    .contact span h4{
+        font-family:  'Poppins', sans-serif;
+    }
+
+    .contact span p{
+        font-size: 20px;
+        font-family:  'Poppins', sans-serif;
+    }
+
+    .maincontact iframe{
+        width: 400px;
+        height: 397px;
+        margin: 40px 20px;
+    }
+
+
+    footer{
+        width: 100%;
+        background-color: #002749;
+    
+        margin-top: 100px;
+        padding: 20px;
+    }
+    
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logoname{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .logoname img{
+        width: 120px;
+    }
+    
+    .logoname h1{
+        font-family: 'Signika', sans-serif;
+        margin-top: 15px;
+        color:  yellow;
+        font-size: 23px;
+        text-align: center;
+    }
+    
+    footer .box{width: 200px;
+        border-left: 2px solid rgba(119, 136, 153, 0.226);
+        padding-left: 20px;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    footer .box h2{
+        font-family: 'Poppins', sans-serif;
+        color: red;
+        font-size: 21px;
+    }
+    
+    
+    
+    footer .box ul{
+        margin-top: 20px;
+    }
+    
+    footer .box ul li{
+        cursor: pointer;
+        padding: 5px 10px;
+        font-size: 17px;
+        list-style: none;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    footer .box ul li a{
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: white;
+    }
+    
+    .subscribeemail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .subscribeemail .container{
+        display: flex;
+        margin-top: 30px;
+        
+    }
+    
+    .subscribeemail input{
+        height: 40px;
+        border: none;
+        font-size: 16px;
+        padding-left: 10px;
+        width: 230px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .subscribeemail input:focus{
+        outline: none;
+    }
+    
+    .subscribeemail button{
+        height: 40px;
+        width:80px;
+        border: none;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        background-color: red;
+        color: white;
+        font-family: 'Share', cursive;
+        font-size: 17px;
+        cursor: pointer;
+        transition: all .5s;
+    }
+    
+    .subscribeemail button:hover{
+        background-color: yellow;
+        color: red;
+    }
+    
+    .fourthcol{
+        margin-top: 30px;
+    }
+    
+    .linkhead3{font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+    padding: 8px 0px;
+    
+    text-align: center;
+    font-weight: bold;
+    }
+    
+    .fourthcollinks{
+        width: 130px;
+        margin-top: 10px;
+    }
+    
+    .fourthcollinks ul{display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    .fourthcollinks ul a{text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;   
+    }
+    
+    .fourthcollinks ul a li{list-style: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: rgba(105, 105, 105, 0.76);
+    transition: all 0.5s;
+    }
+    
+    .fourthcollinks ul a li:hover{background-color: rgb(255, 0, 0);
+    color: black;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    }
+    
+    .lastcontainer{
+        display: flex;
+        color: white;
+        margin-top: 30px;
+    }
+    
+    .findus{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .footerhelplineicon{
+        display: flex;
+        width:220px; 
+        
+    }
+        
+    .footerhelplineicon i{
+        font-size: 20px;
+        color: white;
+        width:40px;
+        text-align: center;
+    }
+        
+    .footerhelplineicon p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        margin-left: 10px;
+        display:flex;
+        align-items: center;
+    }
+    
+    .footermailicon{
+        display: flex;
+        width:220px;
+        margin-top: 15px;
+    }
+        
+    .footermailicon i{
+        font-size: 20px;
+        color: white;
+        width:40px;
+        text-align: center;
+    }
+    .footermailicon p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+        margin-left: 10px;
+        display:flex;
+        align-items: center;  
+    }
+    
+    
+    
+    .lastcontainer span{
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+        justify-content: flex-end;
+        color: white; 
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+    /* -----tablet screen-----*/
+
+    @media screen and (min-width:655px) and (max-width:709px){
+        .timing{
+            padding: 3px;
+            font-size: 10px;
+        }
+    
+        .timing section i{
+            font-size: 16px;
+        }
+    
+        .lastcontainer span{
+            font-size: 12px;
+        }
+    
+    }
+    
+    @media screen and (max-width:730px){
+        .timing{
+            padding: 5px 7px;
+            font-size: 10px;
+        }
+    
+        .timing section i{
+            font-size: 18px;
+        }
+    
+    }
+    
+    
+    @media screen and (min-width:655px) and (max-width:965px){
+    
+        .firsthead{
+            height: 110px;
+            padding: 0px 10px;
+        }
+    
+        .firsthead img{
+            width: 85px;
+        }
+    
+        .firsthead h1{
+            font-size: 22px;
+        }
+    
+        .sechead{
+            height: 52px;
+        }
+    
+        .sechead ul li{
+            font-size: 14px;
+        }
+    
+        .sechead ul li a{
+            width: 90px;
+        }
+    
+        .bgimg{
+            height: 365px;
+        }
+
+
+    
+        footer{
+            padding: 20px 14px;
+        }
+    
+        .logoname img{
+            width: 115px;
+        }
+    
+        footer .box h2{
+            font-size: 20px;
+        }
+    
+        footer .box ul li{
+            font-size: 16px;
+        }
+    
+        .subscribeemail input{
+            width: 167px;
+            height: 35px;
+        }
+    
+        .subscribeemail button{
+            width: 70px;
+            font-size: 13px;
+            height: 35px;
+        }
+    
+        .footerhelplineicon i{
+            font-size: 18px;
+        }
+    
+        .footerhelplineicon p{
+            font-size: 15px;
+        }
+    
+        .footermailicon i{
+            font-size: 18px;
+        }
+    
+        .footermailicon p{
+            font-size: 15px;
+        }
+    
+        .lastcontainer span{
+            font-size: 15px;
+        }
+    
+    
+    }
+    
+    
+    @media screen and (min-width:655px) and (max-width:730px){
+    
+        .lastcontainer span{
+            font-size: 12px;
+        }
+    
+        .logoname h1{
+            font-size: 14px;
+        }
+    
+        
+    }
+    
+    @media screen and (min-width:731px) and (max-width:965px){
+    
+        .logoname h1{
+            font-size: 22px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        /* -----Mobile screen-----*/
+    
+    
+    
+    @media screen and (max-width:654px){
+    
+        header{
+            height: 253px;
+        }
+    
+    
+        .firsthead{
+            height:200px;
+            display: block;
+            padding: 15px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+    
+        .firsthead img{
+            width: 90px;
+        }
+    
+        .firsthead h1{
+            font-size: 26px;
+        }
+    
+        .timing{
+            padding: 0px;
+            margin-top: 20px;
+            border: none;
+            font-size: 12px;
+        }
+    
+        .sechead{z-index:2;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 18px;
+            height: 53px; 
+        }
+    
+        .sechead > ul{
+            display: none;
+        }
+    
+        .sechead a{
+            text-decoration: none;
+        }
+    
+        .sechead a i{
+            font-size: 20px;
+            color: #002749;
+            display: block;
+        }
+    
+        .menu{
+            display: block;
+            background-color: rgba(0, 0, 0, 0.911);
+            width: 100%;
+            transition: all .5s;
+            height: 0px;  
+            visibility: hidden;    
+        }
+        
+        .menu ul{ 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0px;
+        }
+    
+        .menu ul ul{
+            display: none;
+        }
+        
+        .menu ul li{
+            list-style: none;
+            font-size: 16px;
+            transition: all .2s;
+            font-family: 'Poppins', sans-serif;
+        }
+    
+      
+        
+        .menu ul li a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            height: 50px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .menu ul li:hover{
+            background-color: yellow;
+        }
+    
+        .menu ul li a i{
+            margin-left: 10px;
+        }
+    
+        .menu ul li:hover > ul{
+            display: none;
+        }
+    
+        .menu ul ul{
+            display: none;
+        }
+    
+        .menu ul li:hover a{
+            color: rgb(255, 0, 0);
+        }
+        
+        .sechead label i{
+            cursor: pointer;
+            font-size: 20px;
+            display: block;
+            color: #002749;
+        }
+    
+    
+    
+        #slider:checked ~  .menu{
+            height: 370px;
+            visibility: visible;
+        }
+    
+        .bgimg{
+            height: 275px;
+        }
+    
+        .bgimg h1{
+            font-size: 38px;
+        }
+
+        .contact{
+            flex-direction: column;
+        }
+
+        .contact i{
+            margin: auto;
+        }
+
+        .contact span h2{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact span p{
+            font-size: 14px;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .contact span h4{
+            text-align: center;
+        }
+
+        .maincontact iframe{
+            width: 300px;
+            height: 300px;
+        }
+
+        footer{
+            padding: 20px 10px;
+        }
+    
+        footer > .container{
+            flex-direction: column;
+        }
+    
+        footer .box{
+            border: none;
+            margin: 40px 0px 20px 0px;
+    
+        }
+    
+        .subscribeemail input{
+            width: 210px;
+        }
+    
+        .subscribeemail button{
+            font-size: 14px;
+        }
+    
+        .lastcontainer{
+            flex-direction: column;
+            margin-top: 50px;
+        }
+    
+        .footerhelplineicon i{
+            font-size: 19px;
+        }
+    
+        .footerhelplineicon p{
+            font-size: 15px;
+        }
+    
+        .footermailicon i{
+            font-size: 19px;
+        }
+    
+        .footermailicon p{
+            font-size: 15px;
+        }
+    
+        .lastcontainer span{
+            font-size: 13px;
+            flex-direction: column;
+            margin-top: 30px;
+            text-align: center;
+            align-items: center;
+        }
+    
+        .lastcontainer span h3{
+            margin-top: 8px;
+        }
+    
+    
+    
+    
+    
+    
+    }
+    
+    @media screen and (max-width:385px){
+    
+        .firsthead img{
+            width: 73px;
+        }
+    
+        .firsthead h1{
+            font-size: 21px;
+        }
+    
+        .timing{
+            padding: 0px;
+            margin-top: 20px;
+            border: none;
+            font-size: 11px;
+        }
+
+    }
